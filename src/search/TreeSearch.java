@@ -1,3 +1,5 @@
+package search;
+
 import GeneralProblem.Action;
 import GeneralProblem.Node;
 import GeneralProblem.Problem;

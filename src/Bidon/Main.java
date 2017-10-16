@@ -1,6 +1,7 @@
+package Bidon;
 
-import Bidon.*;
 import GeneralProblem.Node;
+import search.TreeSearch;
 
 import java.util.ArrayList;
 

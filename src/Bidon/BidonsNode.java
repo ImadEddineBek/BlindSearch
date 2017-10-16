@@ -15,7 +15,7 @@ public class BidonsNode extends Node<Action> {
 
     @Override
     public String toString() {
-        return "BidonsNode{" +
+        return "FarmersNode{" +
                 "currentState=" + currentState +
                 ", action=" + action +
                 ", cost=" + cost +

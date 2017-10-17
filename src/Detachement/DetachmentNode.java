@@ -3,7 +3,7 @@ package Detachement;
 import GeneralProblem.Node;
 
 public class DetachmentNode extends Node<Action> {
-    public DetachmentNode(DetachmentState currentState, Node<Action> parentNode, Action action) {
+    DetachmentNode(DetachmentState currentState, Node<Action> parentNode, Action action) {
         super(currentState, parentNode, action);
     }
 
@@ -14,6 +14,6 @@ public class DetachmentNode extends Node<Action> {
 
     @Override
     public String toString() {
-        return "" +currentState + "\t\tAction "+action;
+        return "" +currentState + "\t\tAction "+action +" cost"+ cost;
     }
 }

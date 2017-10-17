@@ -4,12 +4,12 @@ import GeneralProblem.State;
 
 public class DetachmentState extends State {
 
-    private int nbSoldasLeft;
-    private int nbSoldasRight;
-    private boolean e1;
-    private boolean e2;
-    private boolean bateau;
-    public DetachmentState(int nbSoldasLeft, int nbSoldasRight, boolean e1, boolean e2, boolean bateau) {
+    private final int nbSoldasLeft;
+    private final int nbSoldasRight;
+    private final boolean e1;
+    private final boolean e2;
+    private final boolean bateau;
+    DetachmentState(int nbSoldasLeft, int nbSoldasRight, boolean e1, boolean e2, boolean bateau) {
         this.nbSoldasLeft = nbSoldasLeft;
         this.nbSoldasRight = nbSoldasRight;
         this.e1 = e1;
@@ -17,36 +17,20 @@ public class DetachmentState extends State {
         this.bateau = bateau;
     }
 
-    public int getNbSoldasLeft() {
+    int getNbSoldasLeft() {
         return nbSoldasLeft;
     }
 
-    public void setNbSoldasLeft(int nbSoldasLeft) {
-        this.nbSoldasLeft = nbSoldasLeft;
-    }
-
-    public boolean hasE1() {
+    boolean hasE1() {
         return e1;
     }
 
-    public void setE1(boolean e1) {
-        this.e1 = e1;
-    }
-
-    public boolean hasE2() {
+    boolean hasE2() {
         return e2;
     }
 
-    public void setE2(boolean e2) {
-        this.e2 = e2;
-    }
-
-    public boolean hasBateau() {
+    boolean hasBateau() {
         return bateau;
-    }
-
-    public void setBateau(boolean bateau) {
-        this.bateau = bateau;
     }
 
     @Override
@@ -64,11 +48,8 @@ public class DetachmentState extends State {
         return sb.toString();
     }
 
-    public int getNbSoldasRight() {
+    int getNbSoldasRight() {
         return nbSoldasRight;
     }
 
-    public void setNbSoldasRight(int nbSoldasRight) {
-        this.nbSoldasRight = nbSoldasRight;
-    }
 }

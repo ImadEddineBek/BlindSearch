@@ -9,7 +9,7 @@ import java.util.Collection;
 
 public class DetachmentProblem extends Problem<Action> {
 
-    public DetachmentProblem(Node<Action> initialState) {
+     DetachmentProblem(Node<Action> initialState) {
         super(initialState);
     }
 
@@ -21,7 +21,7 @@ public class DetachmentProblem extends Problem<Action> {
         return detachmentNodes;
     }
 
-    public ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
+     private ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
         ArrayList<DetachmentNode> detachmentNodes = new ArrayList<>();
         DetachmentState currentState = (DetachmentState) currentNode.getCurrentState();
         if (currentState.hasBateau()){
@@ -44,7 +44,7 @@ public class DetachmentProblem extends Problem<Action> {
         }
         return detachmentNodes;
     }
-    public ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
+     private ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
         ArrayList<DetachmentNode> detachmentNodes = new ArrayList<>();
         DetachmentState currentState = (DetachmentState) currentNode.getCurrentState();
         if (currentState.hasBateau() && currentState.hasE2() && currentState.hasE1()) {

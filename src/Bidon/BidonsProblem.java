@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class BidonsProblem extends Problem<Action> {
 
-    public BidonsProblem(Node<Action> initialState) {
+     BidonsProblem(Node<Action> initialState) {
         super(initialState);
     }
 
@@ -22,7 +22,7 @@ public class BidonsProblem extends Problem<Action> {
             Bidon b2 = new Bidon(currentState.getB2());
             b2.transferer(b1);
             BidonsState state = new BidonsState(b1,b2);
-            BidonsNode bidonsNode = new BidonsNode(state,currentNode,Action.transfererB2B1(currentState.getB2(),currentState.getB1()));
+            BidonsNode bidonsNode = new BidonsNode(state,currentNode,Action.transfererB2B1(currentState.getB1(),currentState.getB2()));
             possibleStates.add(bidonsNode);
         }
         if (!(currentState.getB2().getCapacite()==currentState.getB2().getMaxCapacite()||currentState.getB1().getCapacite()==0)){
@@ -30,7 +30,7 @@ public class BidonsProblem extends Problem<Action> {
             Bidon b2 = new Bidon(currentState.getB2());
             b1.transferer(b2);
             BidonsState state = new BidonsState(b1,b2);
-            BidonsNode bidonsNode = new BidonsNode(state,currentNode,Action.transfererB2B1(currentState.getB1(),currentState.getB2()));
+            BidonsNode bidonsNode = new BidonsNode(state,currentNode,Action.transfererB1B2(currentState.getB1(),currentState.getB2()));
             possibleStates.add(bidonsNode);
         }
         if (currentState.getB1().getCapacite()!=0){

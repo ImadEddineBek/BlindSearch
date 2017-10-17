@@ -3,9 +3,9 @@ package Farmer;
 import GeneralProblem.State;
 
 public class FarmerState extends State {
-    private boolean[] liste;
+    private final boolean[] liste;
 
-    public FarmerState(boolean[] liste) {
+     FarmerState(boolean[] liste) {
         this.liste = liste;
     }
 
@@ -30,11 +30,8 @@ public class FarmerState extends State {
         return sb.toString();
     }
 
-    public boolean[] getListe() {
+     boolean[] getListe() {
         return liste;
     }
 
-    public void setListe(boolean[] liste) {
-        this.liste = liste;
-    }
 }

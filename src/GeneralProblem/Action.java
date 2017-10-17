@@ -1,13 +1,13 @@
 package GeneralProblem;
 
 public class Action {
-    protected double cost ;
+    protected final double cost ;
 
-    public Action(double cost) {
+    protected Action(double cost) {
         this.cost = cost;
     }
 
-    public double getCost() {
+     double getCost() {
         return cost;
     }
 }

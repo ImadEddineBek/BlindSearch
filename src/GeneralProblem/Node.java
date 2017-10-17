@@ -1,13 +1,13 @@
 package GeneralProblem;
 
 public class Node<T extends Action> {
-    protected State currentState;
-    protected Node<T> parentNode;
-    protected T action;
-    protected double cost;
-    protected int depth;
+    protected final State currentState;
+    private final Node<T> parentNode;
+    protected final T action;
+    protected final double cost;
+    protected final int depth;
 
-    public Node(State currentState, Node<T> parentNode, T action) {
+    protected Node(State currentState, Node<T> parentNode, T action) {
         this.currentState = currentState;
         this.parentNode = parentNode;
         this.action = action;
@@ -28,15 +28,4 @@ public class Node<T extends Action> {
         return currentState;
     }
 
-    public T getAction() {
-        return action;
-    }
-
-    public double getCost() {
-        return cost;
-    }
-
-    public int getDepth() {
-        return depth;
-    }
 }

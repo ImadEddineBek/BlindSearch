@@ -9,7 +9,7 @@ import java.util.Collection;
 
 public class InsectsProblem extends Problem<Action> {
 
-    public InsectsProblem(Node<Action> initialState) {
+     InsectsProblem(Node<Action> initialState) {
         super(initialState);
     }
 
@@ -21,7 +21,7 @@ public class InsectsProblem extends Problem<Action> {
         return insectsNodes;
     }
 
-    public ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
+    private ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
         ArrayList<InsectsNode> insectsNodes = new ArrayList<>();
         InsectsState currentState = (InsectsState) currentNode.getCurrentState();
         boolean[] liste = currentState.getListe();
@@ -65,7 +65,7 @@ public class InsectsProblem extends Problem<Action> {
         return insectsNodes;
     }
 
-    public ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
+    private ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
         ArrayList<InsectsNode> insectsNodes = new ArrayList<>();
         InsectsState currentState = (InsectsState) currentNode.getCurrentState();
         boolean[] liste = currentState.getListe();

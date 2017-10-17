@@ -9,7 +9,7 @@ import java.util.Collection;
 
 public class FarmersProblem extends Problem<Action> {
 
-    public FarmersProblem(Node<Action> initialState) {
+     FarmersProblem(Node<Action> initialState) {
         super(initialState);
     }
 
@@ -21,7 +21,7 @@ public class FarmersProblem extends Problem<Action> {
         farmersNodes.addAll((Collection<? extends FarmersNode>) successorFunction3(currentNode));
         return farmersNodes;
     }
-    public ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
+    private ArrayList<? extends Node<Action>> successorFunction1(Node<Action> currentNode) {
         ArrayList<FarmersNode> farmersNodes = new ArrayList<>();
         FarmerState currentState = (FarmerState) currentNode.getCurrentState();
         boolean[] newList = new boolean[currentState.getListe().length];
@@ -38,7 +38,7 @@ public class FarmersProblem extends Problem<Action> {
         }
         return farmersNodes;
     }
-    public ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
+    private ArrayList<? extends Node<Action>> successorFunction2(Node<Action> currentNode) {
         ArrayList<FarmersNode> farmersNodes = new ArrayList<>();
         FarmerState currentState = (FarmerState) currentNode.getCurrentState();
         boolean[] liste = currentState.getListe();
@@ -61,7 +61,7 @@ public class FarmersProblem extends Problem<Action> {
         }
         return farmersNodes;
     }
-    public ArrayList<? extends Node<Action>> successorFunction3(Node<Action> currentNode) {
+    private ArrayList<? extends Node<Action>> successorFunction3(Node<Action> currentNode) {
         ArrayList<FarmersNode> farmersNodes = new ArrayList<>();
         FarmerState currentState = (FarmerState) currentNode.getCurrentState();
         boolean[] liste = currentState.getListe();
@@ -99,7 +99,7 @@ public class FarmersProblem extends Problem<Action> {
         return true;
     }
 
-    public boolean check(Node<Action> node ){
+    private boolean check(Node<Action> node){
         FarmersNode node1 = (FarmersNode) node;
         boolean[] liste = node1.getCurrentState().getListe();
         boolean farmer = liste[0];

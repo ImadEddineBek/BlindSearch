@@ -3,9 +3,9 @@ package Insects;
 import GeneralProblem.State;
 
 public class InsectsState extends State {
-    private boolean[] liste;
+    private final boolean[] liste;
 
-    public InsectsState(boolean[] liste) {
+     InsectsState(boolean[] liste) {
         this.liste = liste;
     }
 
@@ -26,11 +26,8 @@ public class InsectsState extends State {
         return sb.toString();
     }
 
-    public boolean[] getListe() {
+     boolean[] getListe() {
         return liste;
     }
 
-    public void setListe(boolean[] liste) {
-        this.liste = liste;
-    }
 }

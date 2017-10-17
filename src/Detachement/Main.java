@@ -5,7 +5,7 @@ import search.TreeSearch;
 
 import java.util.ArrayList;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         TreeSearch<Action, DetachmentProblem> treeSearch = new TreeSearch<>();

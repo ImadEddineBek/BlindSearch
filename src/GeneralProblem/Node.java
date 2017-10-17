@@ -4,7 +4,7 @@ public class Node<T extends Action> {
     protected final State currentState;
     private final Node<T> parentNode;
     protected final T action;
-    protected final double cost;
+    public final double cost;
     protected final int depth;
 
     protected Node(State currentState, Node<T> parentNode, T action) {

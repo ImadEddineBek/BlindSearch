@@ -14,6 +14,6 @@ public class FarmersNode extends Node<Action> {
 
     @Override
     public String toString() {
-        return "" +currentState + " cost "+cost;
+        return "" +currentState + " cost " + cost;
     }
 }

@@ -1,4 +1,4 @@
-package Insects;
+package Missionaries;
 
 
 class Action extends GeneralProblem.Action {
@@ -17,16 +17,13 @@ class Action extends GeneralProblem.Action {
         if (o1!=null&&o2!=null) return
                 "t=" + t +" "+
                         o2 +" "+
-                        o1 +
-                        ", cost=" + cost;
+                        o1 ;
         else if (o1!=null)return
                 "t=" + t +" "+
-                        o1 +
-                        ", cost=" + cost;
+                        o1 ;
         else if (o2!=null)return
                 "t= " + t +" "+
-                        o2 +
-                        ", cost=" + cost;
+                        o2 ;
         else return "";
     }
 }

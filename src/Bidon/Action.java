@@ -10,16 +10,16 @@ class Action extends GeneralProblem.Action {
         this.t = t;
     }
     static Action viderB1(Bidon b1){
-        return new Action(b1.getCapacite(),viderB1);
+        return new Action(0,viderB1);
     }
     static Action viderB2(Bidon b1){
-        return new Action(b1.getCapacite(),viderB2);
+        return new Action(0,viderB2);
     }
     static Action remplirB1(Bidon b1){
-        return new Action(0,remplirB1);
+        return new Action(b1.getMaxCapacite()-b1.getCapacite(),remplirB1);
     }
     static Action remplirB2(Bidon b1){
-        return new Action(0,remplirB2);
+        return new Action(b1.getMaxCapacite()-b1.getCapacite(),remplirB2);
     }
     static Action transfererB1B2(Bidon b1, Bidon b2){
         return new Action(0,transfererB1B2);

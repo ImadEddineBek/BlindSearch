@@ -1,4 +1,4 @@
-package Detachement;
+package Insects;
 
 
 public class Action extends GeneralProblem.Action {
@@ -17,13 +17,16 @@ public class Action extends GeneralProblem.Action {
         if (o1!=null&&o2!=null) return
                 "t=" + t +" "+
                         o2 +
-                        o1 ;
+                        o1 +
+                        ", cost=" + cost;
         else if (o1!=null)return
                 "t=" + t +" "+
-                        o1 ;
+                        o1 +
+                        ", cost=" + cost;
         else if (o2!=null)return
                 "t= " + t +" "+
-                        o2 ;
+                        o2 +
+                        ", cost=" + cost;
         else return "";
     }
 }

@@ -25,16 +25,6 @@ public class DetachmentProblem extends Problem<Action> {
         ArrayList<DetachmentNode> detachmentNodes = new ArrayList<>();
         DetachmentState currentState = (DetachmentState) currentNode.getCurrentState();
         if (currentState.hasBateau()){
-            if (currentState.hasE2()){
-                DetachmentState detachmentState = new DetachmentState(currentState.getNbSoldasLeft(), currentState.getNbSoldasRight(), currentState.hasE1(),false,false);
-                DetachmentNode detachmentNode = new DetachmentNode(detachmentState,currentNode,new Action(Objects.enfant,null,type.leftToRight));
-                detachmentNodes.add(detachmentNode);
-            }
-            if (currentState.hasE1()){
-                DetachmentState detachmentState = new DetachmentState(currentState.getNbSoldasLeft(), currentState.getNbSoldasRight(), false,currentState.hasE2(),false);
-                DetachmentNode detachmentNode = new DetachmentNode(detachmentState,currentNode,new Action(Objects.enfant,null,type.leftToRight));
-                detachmentNodes.add(detachmentNode);
-            }
             if (currentState.getNbSoldasLeft()>0){
                 DetachmentState detachmentState = new DetachmentState(currentState.getNbSoldasLeft()-1, currentState.getNbSoldasRight()+1, currentState.hasE1(),currentState.hasE2(),false);
                 DetachmentNode detachmentNode = new DetachmentNode(detachmentState,currentNode,new Action(Objects.soldat,null,type.leftToRight));

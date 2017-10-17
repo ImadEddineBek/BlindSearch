@@ -29,6 +29,21 @@ public class Node<T extends Action> implements Comparable<Node<T>>{
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Node<?> node = (Node<?>) o;
+
+        return currentState.equals(node.currentState);
+    }
+
+    @Override
+    public int hashCode() {
+        return currentState.hashCode();
+    }
+
+    @Override
     public int compareTo(Node<T> o) {
         return (int) (cost-o.cost);
     }

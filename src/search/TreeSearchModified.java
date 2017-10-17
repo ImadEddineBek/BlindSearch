@@ -34,9 +34,8 @@ public class TreeSearchModified < A extends Action,T extends Problem<A>> {
                 }
                 arrayList.addAll(temp);
                 return arrayList;
-            }else {
-                queue.addAll(problem.successorFunction(node));
-            }
+            } ArrayList<? extends Node<A>> c = problem.successorFunction(node);
+            queue.addAll(c);
         }
     }
 }

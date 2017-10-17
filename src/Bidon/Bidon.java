@@ -43,4 +43,22 @@ class Bidon {
                 ", capacite=" + capacite +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Bidon bidon = (Bidon) o;
+
+        if (maxCapacite != bidon.maxCapacite) return false;
+        return capacite == bidon.capacite;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = maxCapacite;
+        result = 31 * result + capacite;
+        return result;
+    }
 }

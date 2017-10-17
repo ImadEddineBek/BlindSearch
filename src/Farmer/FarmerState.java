@@ -2,11 +2,28 @@ package Farmer;
 
 import GeneralProblem.State;
 
+import java.util.Arrays;
+
 public class FarmerState extends State {
     private final boolean[] liste;
 
      FarmerState(boolean[] liste) {
         this.liste = liste;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        FarmerState that = (FarmerState) o;
+
+        return Arrays.equals(liste, that.liste);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(liste);
     }
 
     @Override

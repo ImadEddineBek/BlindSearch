@@ -4,17 +4,17 @@ import GeneralProblem.Action;
 import GeneralProblem.Node;
 import GeneralProblem.Problem;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Queue;
+import java.util.*;
 
-public class TreeSearch < A extends Action,T extends Problem<A>> {
+public class TreeSearchDFS< A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        ArrayDeque<Node<A>> queue = new ArrayDeque<>();
+        Stack<Node<A>> queue = new Stack<>();
+        Set<Node<A>> set = new HashSet<>();
         queue.add(problem.getInitialState());
         while (true){
             if (queue.isEmpty())return null;
-            Node<A> node = queue.poll();
+            Node<A> node = queue.pop();
+            set.add(node);
             if (problem.goalTest(node)){
                 ArrayList<Node<A>> arrayList = new ArrayList<>();
                 ArrayDeque<Node<A>> temp = new ArrayDeque<>();
@@ -26,7 +26,11 @@ public class TreeSearch < A extends Action,T extends Problem<A>> {
                 return arrayList;
             }else {
                 ArrayList<? extends Node<A>> c = problem.successorFunction(node);
-                queue.addAll(c);
+                for (Node<A> aNode : c) {
+                    if (set.add(aNode))
+                        queue.add(aNode);
+                }
+
             }
         }
     }

@@ -2,6 +2,7 @@ package Detachement;
 
 import GeneralProblem.Node;
 import search.TreeSearch;
+import search.TreeSearchDFS;
 import search.TreeSearchModified;
 
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ class Main {
     public static void main(String[] args) {
         treeSearch();
         treeSearchModified();
+        treeSearchDFS();
     }
 
     private static void treeSearch() {
@@ -19,6 +21,13 @@ class Main {
         ArrayList<Node<Action>> solve = treeSearch.solve(new DetachmentProblem(new DetachmentNode(new DetachmentState(5, 0, true,true,true), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the original\n");
+    }
+    private static void treeSearchDFS() {
+        System.out.println("Tree Search the DFS original");
+        TreeSearchDFS<Action, DetachmentProblem> treeSearch = new TreeSearchDFS<>();
+        ArrayList<Node<Action>> solve = treeSearch.solve(new DetachmentProblem(new DetachmentNode(new DetachmentState(5, 0, true,true,true), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the DFS original\n");
     }
     private static void treeSearchModified() {
         System.out.println("Tree Search the modified");

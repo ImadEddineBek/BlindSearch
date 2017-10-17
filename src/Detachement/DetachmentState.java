@@ -48,6 +48,30 @@ public class DetachmentState extends State {
         return sb.toString();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        DetachmentState that = (DetachmentState) o;
+
+        if (nbSoldasLeft != that.nbSoldasLeft) return false;
+        if (nbSoldasRight != that.nbSoldasRight) return false;
+        if (e1 != that.e1) return false;
+        if (e2 != that.e2) return false;
+        return bateau == that.bateau;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = nbSoldasLeft;
+        result = 31 * result + nbSoldasRight;
+        result = 31 * result + (e1 ? 1 : 0);
+        result = 31 * result + (e2 ? 1 : 0);
+        result = 31 * result + (bateau ? 1 : 0);
+        return result;
+    }
+
     int getNbSoldasRight() {
         return nbSoldasRight;
     }

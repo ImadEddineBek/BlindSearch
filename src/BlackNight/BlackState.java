@@ -2,10 +2,27 @@ package BlackNight;
 
 import GeneralProblem.State;
 
+import java.util.Arrays;
+
 public class BlackState extends State {
     private final boolean[] liste;
 
-     BlackState(boolean[] liste) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        BlackState that = (BlackState) o;
+
+        return Arrays.equals(liste, that.liste);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(liste);
+    }
+
+    BlackState(boolean[] liste) {
         this.liste = liste;
     }
 

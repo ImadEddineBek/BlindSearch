@@ -2,6 +2,7 @@ package Bidon;
 
 import GeneralProblem.Node;
 import search.TreeSearch;
+import search.TreeSearchDFS;
 import search.TreeSearchModified;
 
 import java.util.ArrayList;
@@ -11,16 +12,26 @@ class Main {
     public static void main(String[] args) {
         treeSearch();
         treeSearchModified();
+        treeSearchDFS();
     }
 
     private static void treeSearch() {
         System.out.println("Tree Search the original");
         TreeSearch<Action, BidonsProblem> treeSearch = new TreeSearch<>();
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
+        ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the original\n");
+    }
+    private static void treeSearchDFS() {
+        System.out.println("Tree Search the DFS original");
+        TreeSearchDFS<Action, BidonsProblem> treeSearch = new TreeSearchDFS<>();
         Bidon bidon4 = new Bidon(3,0);
         Bidon bidon3 = new Bidon(4,0);
         ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
         solve.forEach(System.out::println);
-        System.out.println("Tree Search the original\n");
+        System.out.println("Tree Search the DFS original\n");
     }
     private static void treeSearchModified() {
         System.out.println("Tree Search the modified");

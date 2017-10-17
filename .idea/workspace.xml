@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d52a49-6de4-44f9-ac59-684b9d3d01fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/BlackNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/BlackProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/BlackState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/Objects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlackNight/type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/MissionaryNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/MissionaryState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/Objects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Missionaries/type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/Action.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/Action.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/Bidon.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/Bidon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsNode.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsProblem.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsProblem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsState.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/Bidon/BidonsState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Action.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Action.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Node.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Problem.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Problem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bidon/Action.java" afterPath="$PROJECT_DIR$/src/Bidon/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bidon/Main.java" afterPath="$PROJECT_DIR$/src/Bidon/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Detachement/Main.java" afterPath="$PROJECT_DIR$/src/Detachement/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Farmer/FarmersNode.java" afterPath="$PROJECT_DIR$/src/Farmer/FarmersNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Farmer/Main.java" afterPath="$PROJECT_DIR$/src/Farmer/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeneralProblem/Node.java" afterPath="$PROJECT_DIR$/src/GeneralProblem/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Insects/Action.java" afterPath="$PROJECT_DIR$/src/Insects/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Insects/Main.java" afterPath="$PROJECT_DIR$/src/Insects/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Missionaries/MissionaryNode.java" afterPath="$PROJECT_DIR$/src/Missionaries/MissionaryNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Missionaries/MissionaryState.java" afterPath="$PROJECT_DIR$/src/Missionaries/MissionaryState.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +21,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MissionaryNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MissionaryProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
+              <folding>
+                <element signature="method#successorFunction#0;class#MissionaryProblem#0" expanded="false" />
+                <element signature="method#successorFunction1#0;class#MissionaryProblem#0" expanded="false" />
+                <element signature="method#successorFunction2#0;class#MissionaryProblem#0" expanded="false" />
+                <element signature="method#goalTest#0;class#MissionaryProblem#0" expanded="false" />
+                <element signature="method#check#0;class#MissionaryProblem#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MissionaryState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#equals#0;class#MissionaryState#0" expanded="false" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Farmer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Missionaries/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,39 +133,6 @@
             <state relative-caret-position="99">
               <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bidon/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BidonsProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bidon/BidonsProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bidon/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -183,10 +186,8 @@
         <option value="$PROJECT_DIR$/src/Missionaries/Objects.java" />
         <option value="$PROJECT_DIR$/src/Missionaries/FarmersProblem.java" />
         <option value="$PROJECT_DIR$/src/Missionaries/FarmersNode.java" />
-        <option value="$PROJECT_DIR$/src/Missionaries/MissionaryNode.java" />
         <option value="$PROJECT_DIR$/src/Missionaries/FarmerState.java" />
         <option value="$PROJECT_DIR$/src/Missionaries/type.java" />
-        <option value="$PROJECT_DIR$/src/Missionaries/MissionaryState.java" />
         <option value="$PROJECT_DIR$/src/Farmer/FarmersNode.java" />
         <option value="$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/Objects.java" />
@@ -196,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/BlackNight/MissionaryProblem.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/Action.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/BlackProblem.java" />
-        <option value="$PROJECT_DIR$/src/GeneralProblem/Node.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/Main.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
         <option value="$PROJECT_DIR$/src/Detachement/Main.java" />
@@ -205,6 +205,9 @@
         <option value="$PROJECT_DIR$/src/Farmer/Main.java" />
         <option value="$PROJECT_DIR$/src/Bidon/Main.java" />
         <option value="$PROJECT_DIR$/src/Bidon/Action.java" />
+        <option value="$PROJECT_DIR$/src/Missionaries/MissionaryState.java" />
+        <option value="$PROJECT_DIR$/src/Missionaries/MissionaryNode.java" />
+        <option value="$PROJECT_DIR$/src/GeneralProblem/Node.java" />
       </list>
     </option>
   </component>
@@ -257,37 +260,7 @@
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BlackNight" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Detachement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Farmer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GeneralProblem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Insects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Missionaries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -485,7 +458,7 @@
       <workItem from="1508139432867" duration="17000" />
       <workItem from="1508154001638" duration="192000" />
       <workItem from="1508163442834" duration="8135000" />
-      <workItem from="1508252417446" duration="13571000" />
+      <workItem from="1508252417446" duration="14657000" />
     </task>
     <task id="LOCAL-00001" summary="First Implementation with Bidon">
       <created>1508089975581</created>
@@ -529,14 +502,22 @@
       <option name="project" value="LOCAL" />
       <updated>1508261104007</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Missionaries and blackNight Implementation and adding a new search algorithm called TreeSearchModified which works greatly with the BlackNight problem">
+      <created>1508267620161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508267620161</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35438000" />
+    <option name="totallyTimeSpent" value="36524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -544,14 +525,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4949833" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4949833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4949833" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -637,7 +618,8 @@
     <MESSAGE value="Forth Implementation with the &quot;lombric millepatte sauterelle &quot; problem" />
     <MESSAGE value="some formatting" />
     <MESSAGE value="general improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="general improvements" />
+    <MESSAGE value="Missionaries and blackNight Implementation and adding a new search algorithm called TreeSearchModified which works greatly with the BlackNight problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Missionaries and blackNight Implementation and adding a new search algorithm called TreeSearchModified which works greatly with the BlackNight problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -895,34 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="34" column="73" lean-forward="true" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#successorFunction2#0;class#MissionaryProblem#0" expanded="false" />
-            <element signature="method#goalTest#0;class#MissionaryProblem#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Missionaries/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -997,14 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1013,14 +959,6 @@
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,10 +1039,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Missionaries/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
+          <folding>
+            <element signature="method#successorFunction#0;class#MissionaryProblem#0" expanded="false" />
+            <element signature="method#successorFunction1#0;class#MissionaryProblem#0" expanded="false" />
+            <element signature="method#successorFunction2#0;class#MissionaryProblem#0" expanded="false" />
+            <element signature="method#goalTest#0;class#MissionaryProblem#0" expanded="false" />
+            <element signature="method#check#0;class#MissionaryProblem#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#MissionaryState#0" expanded="false" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
           </folding>
         </state>
       </provider>

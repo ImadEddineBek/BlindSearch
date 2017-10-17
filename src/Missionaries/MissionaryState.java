@@ -2,7 +2,9 @@ package Missionaries;
 
 import GeneralProblem.State;
 
-public class MissionaryState extends State {
+import java.util.Arrays;
+
+public class MissionaryState extends State  {
     private final boolean[] liste;
 
      MissionaryState(boolean[] liste) {
@@ -30,8 +32,24 @@ public class MissionaryState extends State {
         return sb.toString();
     }
 
-     boolean[] getListe() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        MissionaryState that = (MissionaryState) o;
+
+        return Arrays.equals(liste, that.liste);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(liste);
+    }
+
+    boolean[] getListe() {
         return liste;
     }
+
 
 }

@@ -1,13 +1,13 @@
 package GeneralProblem;
 
-public class Node<T extends Action> {
+public class Node<T extends Action> implements Comparable<Node<T>>{
     protected final State currentState;
     private final Node<T> parentNode;
     protected final T action;
     public final double cost;
     protected final int depth;
 
-    protected Node(State currentState, Node<T> parentNode, T action) {
+    protected Node(State currentState, Node<T> parentNode, T action)  {
         this.currentState = currentState;
         this.parentNode = parentNode;
         this.action = action;
@@ -28,4 +28,8 @@ public class Node<T extends Action> {
         return currentState;
     }
 
+    @Override
+    public int compareTo(Node<T> o) {
+        return (int) (cost-o.cost);
+    }
 }

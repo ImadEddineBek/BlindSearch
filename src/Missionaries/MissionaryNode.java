@@ -3,7 +3,7 @@ package Missionaries;
 
 import GeneralProblem.Node;
 
-public class MissionaryNode extends Node<Action> {
+public class MissionaryNode extends Node<Action>  {
     public MissionaryNode(MissionaryState currentState, Node<Action> parentNode, Action action) {
         super(currentState, parentNode, action);
     }

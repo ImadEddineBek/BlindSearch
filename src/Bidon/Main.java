@@ -13,6 +13,7 @@ class Main {
         treeSearchDFS();
         treeSearchDLS();
         treeSearchUCS();
+        treeSearchIDS();
     }
 
     private static void treeSearch() {
@@ -41,6 +42,15 @@ class Main {
         ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DLS original\n");
+    }
+    private static void treeSearchIDS() {
+        System.out.println("Tree Search the IDS original");
+        TreeSearchIDS<Action, BidonsProblem> treeSearch = new TreeSearchIDS<>();
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
+        ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the IDS original\n");
     }
     private static void treeSearchUCS() {
         System.out.println("Tree Search the UCS original");

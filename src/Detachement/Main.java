@@ -13,6 +13,7 @@ class Main {
         treeSearchDFS();
         treeSearchDLS();
         treeSearchUCS();
+        treeSearchIDS();
     }
 
     private static void treeSearch() {
@@ -35,6 +36,13 @@ class Main {
         ArrayList<Node<Action>> solve = treeSearch.solve(new DetachmentProblem(new DetachmentNode(new DetachmentState(5, 0, true,true,true), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DLS original\n");
+    }
+    private static void treeSearchIDS() {
+        System.out.println("Tree Search the IDS original");
+        TreeSearchIDS<Action, DetachmentProblem> treeSearch = new TreeSearchIDS<>();
+        ArrayList<Node<Action>> solve = treeSearch.solve(new DetachmentProblem(new DetachmentNode(new DetachmentState(5, 0, true,true,true), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the IDS original\n");
     }
     private static void treeSearchUCS() {
         System.out.println("Tree Search the UCS original");

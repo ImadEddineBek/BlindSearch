@@ -14,6 +14,7 @@ class Main {
         treeSearchDFS();
         treeSearchDLS();
         treeSearchUCS();
+        treeSearchIDS();
     }
 
     private static void treeSearch() {
@@ -48,6 +49,17 @@ class Main {
         ArrayList<Node<Action>> solve = treeSearch.solve(new FarmersProblem(new FarmersNode(new FarmerState(liste), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DLS original\n");
+    }
+    private static void treeSearchIDS() {
+        System.out.println("Tree Search the IDS original");
+        TreeSearchIDS<Action, FarmersProblem> treeSearch = new TreeSearchIDS<>();
+        boolean[] liste = new boolean[6];
+        for (int i = 0; i < liste.length; i++) {
+            liste[i]=true;
+        }
+        ArrayList<Node<Action>> solve = treeSearch.solve(new FarmersProblem(new FarmersNode(new FarmerState(liste), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the IDS original\n");
     }
     private static void treeSearchUCS() {
         System.out.println("Tree Search the UCS original");

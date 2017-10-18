@@ -27,7 +27,7 @@ public class TreeSearchDLS< A extends Action,T extends Problem<A>> {
             }else {
                 ArrayList<? extends Node<A>> c = problem.successorFunction(node);
                 for (Node<A> aNode : c) {
-                    if (set.add(aNode)&&aNode.depth<=4)
+                    if (set.add(aNode)&&aNode.depth<=10)
                         queue.add(aNode);
                 }
 

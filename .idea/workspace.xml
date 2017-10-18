@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d52a49-6de4-44f9-ac59-684b9d3d01fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchDLS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Node.class" afterPath="$PROJECT_DIR$/out/production/BlindSearch/GeneralProblem/Node.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bidon/Main.java" afterPath="$PROJECT_DIR$/src/Bidon/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlackNight/Main.java" afterPath="$PROJECT_DIR$/src/BlackNight/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeneralProblem/Node.java" afterPath="$PROJECT_DIR$/src/GeneralProblem/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearch.java" afterPath="$PROJECT_DIR$/src/search/TreeSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Detachement/Main.java" afterPath="$PROJECT_DIR$/src/Detachement/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDLS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDLS.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSearchDLS.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeSearchDLS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="425">
+              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -89,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Detachement/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="456">
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -102,8 +97,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BlackNight/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="254">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -193,13 +188,13 @@
         <option value="$PROJECT_DIR$/src/Missionaries/Main.java" />
         <option value="$PROJECT_DIR$/src/Insects/Main.java" />
         <option value="$PROJECT_DIR$/src/Farmer/Main.java" />
-        <option value="$PROJECT_DIR$/src/Detachement/Main.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearch.java" />
         <option value="$PROJECT_DIR$/src/GeneralProblem/Node.java" />
         <option value="$PROJECT_DIR$/src/Bidon/Main.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/Main.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearchDLS.java" />
+        <option value="$PROJECT_DIR$/src/Detachement/Main.java" />
       </list>
     </option>
   </component>
@@ -253,6 +248,18 @@
               <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BlackNight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Detachement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Farmer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -457,7 +464,7 @@
       <workItem from="1508139432867" duration="17000" />
       <workItem from="1508154001638" duration="192000" />
       <workItem from="1508163442834" duration="8135000" />
-      <workItem from="1508252417446" duration="18932000" />
+      <workItem from="1508252417446" duration="19121000" />
     </task>
     <task id="LOCAL-00001" summary="First Implementation with Bidon">
       <created>1508089975581</created>
@@ -529,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508270770871</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="doing another search algorithm using a DLS and another set to check whether we have seen this">
+      <created>1508298218405</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508298218405</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40799000" />
+    <option name="totallyTimeSpent" value="40988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -641,7 +655,8 @@
     <MESSAGE value="Missionaries and blackNight Implementation and adding a new search algorithm called TreeSearchModified which works greatly with the BlackNight problem" />
     <MESSAGE value="last modifications" />
     <MESSAGE value="doing another search algorithm using a DFS and another set to check whether we have seen this" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing another search algorithm using a DFS and another set to check whether we have seen this" />
+    <MESSAGE value="doing another search algorithm using a DLS and another set to check whether we have seen this" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing another search algorithm using a DLS and another set to check whether we have seen this" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1038,24 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Farmer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Detachement/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bidon/BidonsState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1106,18 +1103,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlackNight/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        <state relative-caret-position="425">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLS.java">
+    <entry file="file://$PROJECT_DIR$/src/BlackNight/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="254">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Farmer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Detachement/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>

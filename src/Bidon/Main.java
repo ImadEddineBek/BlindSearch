@@ -1,10 +1,7 @@
 package Bidon;
 
 import GeneralProblem.Node;
-import search.TreeSearch;
-import search.TreeSearchDFS;
-import search.TreeSearchDLS;
-import search.TreeSearchModified;
+import search.*;
 
 import java.util.ArrayList;
 
@@ -15,6 +12,7 @@ class Main {
         treeSearchModified();
         treeSearchDFS();
         treeSearchDLS();
+        treeSearchUCS();
     }
 
     private static void treeSearch() {
@@ -29,8 +27,8 @@ class Main {
     private static void treeSearchDFS() {
         System.out.println("Tree Search the DFS original");
         TreeSearchDFS<Action, BidonsProblem> treeSearch = new TreeSearchDFS<>();
-        Bidon bidon4 = new Bidon(3,0);
-        Bidon bidon3 = new Bidon(4,0);
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
         ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DFS original\n");
@@ -38,17 +36,26 @@ class Main {
     private static void treeSearchDLS() {
         System.out.println("Tree Search the DLS original");
         TreeSearchDLS<Action, BidonsProblem> treeSearch = new TreeSearchDLS<>();
-        Bidon bidon4 = new Bidon(3,0);
-        Bidon bidon3 = new Bidon(4,0);
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
         ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DLS original\n");
     }
+    private static void treeSearchUCS() {
+        System.out.println("Tree Search the UCS original");
+        TreeSearchUCS<Action, BidonsProblem> treeSearch = new TreeSearchUCS<>();
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
+        ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the UCS original\n");
+    }
     private static void treeSearchModified() {
         System.out.println("Tree Search the modified");
         TreeSearchModified<Action, BidonsProblem> treeSearch = new TreeSearchModified<>();
-        Bidon bidon4 = new Bidon(3,0);
-        Bidon bidon3 = new Bidon(4,0);
+        Bidon bidon4 = new Bidon(4,0);
+        Bidon bidon3 = new Bidon(3,0);
         ArrayList<Node<Action>> solve = treeSearch.solve(new BidonsProblem(new BidonsNode(new BidonsState(bidon4, bidon3), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the modified\n");

@@ -1,10 +1,7 @@
 package BlackNight;
 
 import GeneralProblem.Node;
-import search.TreeSearch;
-import search.TreeSearchDFS;
-import search.TreeSearchDLS;
-import search.TreeSearchModified;
+import search.*;
 
 import java.util.ArrayList;
 
@@ -15,6 +12,7 @@ class Main {
         treeSearchModified();
         treeSearchDFS();
         treeSearchDLS();
+        treeSearchUCS();
     }
 
     private static void treeSearch() {
@@ -51,6 +49,19 @@ class Main {
             System.out.println(actionNode);
         }
         System.out.println("Tree Search the DLS original\n");
+    }
+    private static void treeSearchUCS() {
+        System.out.println("Tree Search the UCS original");
+        TreeSearchUCS<Action, BlackProblem> treeSearch = new TreeSearchUCS<>();
+        boolean[] liste = new boolean[5];
+        for (int i = 0; i < liste.length; i++) {
+            liste[i]=true;
+        }
+        ArrayList<Node<Action>> solve = treeSearch.solve(new BlackProblem(new BlackNode(new BlackState(liste), null, null)));
+        for (Node<Action> actionNode : solve) {
+            System.out.println(actionNode);
+        }
+        System.out.println("Tree Search the UCS original\n");
     }
     private static void treeSearchModified() {
         System.out.println("Tree Search the modified");

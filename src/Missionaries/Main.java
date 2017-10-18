@@ -1,10 +1,7 @@
 package Missionaries;
 
 import GeneralProblem.Node;
-import search.TreeSearch;
-import search.TreeSearchDFS;
-import search.TreeSearchDLS;
-import search.TreeSearchModified;
+import search.*;
 
 import java.util.ArrayList;
 
@@ -15,6 +12,7 @@ class Main {
         treeSearchModified();
         treeSearchDFS();
         treeSearchDLS();
+        treeSearchUCS();
     }
 
     private static void treeSearch() {
@@ -49,6 +47,17 @@ class Main {
         ArrayList<Node<Action>> solve = treeSearch.solve(new MissionaryProblem(new MissionaryNode(new MissionaryState(liste), null, null)));
         solve.forEach(System.out::println);
         System.out.println("Tree Search the DLS original\n");
+    }
+    private static void treeSearchUCS() {
+        System.out.println("Tree Search the UCS original");
+        TreeSearchUCS<Action, MissionaryProblem> treeSearch = new TreeSearchUCS<>();
+        boolean[] liste = new boolean[7];
+        for (int i = 0; i < liste.length; i++) {
+            liste[i]=true;
+        }
+        ArrayList<Node<Action>> solve = treeSearch.solve(new MissionaryProblem(new MissionaryNode(new MissionaryState(liste), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the UCS original\n");
     }
     private static void treeSearchModified() {
         System.out.println("Tree Search the modified");

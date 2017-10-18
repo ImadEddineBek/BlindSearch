@@ -3,6 +3,7 @@ package Insects;
 import GeneralProblem.Node;
 import search.TreeSearch;
 import search.TreeSearchDFS;
+import search.TreeSearchDLS;
 import search.TreeSearchModified;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ class Main {
         treeSearch();
         treeSearchModified();
         treeSearchDSF();
+        treeSearchDLF();
     }
 
     private static void treeSearch() {
@@ -24,7 +26,7 @@ class Main {
         }
         ArrayList<Node<Action>> solve = treeSearch.solve(new InsectsProblem(new InsectsNode(new InsectsState(liste), null, null)));
         solve.forEach(System.out::println);
-        System.out.println("Tree Search the DFS original\n");
+        System.out.println("Tree Search the  original\n");
     }
 
     private static void treeSearchDSF() {
@@ -36,7 +38,18 @@ class Main {
         }
         ArrayList<Node<Action>> solve = treeSearch.solve(new InsectsProblem(new InsectsNode(new InsectsState(liste), null, null)));
         solve.forEach(System.out::println);
-        System.out.println("Tree Search the original\n");
+        System.out.println("Tree Search the DFS original\n");
+    }
+    private static void treeSearchDLF() {
+        System.out.println("Tree Search the DLS original");
+        TreeSearchDLS<Action, InsectsProblem> treeSearch = new TreeSearchDLS<>();
+        boolean[] liste = new boolean[4];
+        for (int i = 0; i < liste.length; i++) {
+            liste[i] = true;
+        }
+        ArrayList<Node<Action>> solve = treeSearch.solve(new InsectsProblem(new InsectsNode(new InsectsState(liste), null, null)));
+        solve.forEach(System.out::println);
+        System.out.println("Tree Search the DLS original\n");
     }
 
     private static void treeSearchModified() {

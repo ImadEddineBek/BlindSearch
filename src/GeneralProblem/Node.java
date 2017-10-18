@@ -5,7 +5,7 @@ public class Node<T extends Action> implements Comparable<Node<T>>{
     private final Node<T> parentNode;
     protected final T action;
     public final double cost;
-    protected final int depth;
+    public final int depth;
 
     protected Node(State currentState, Node<T> parentNode, T action)  {
         this.currentState = currentState;

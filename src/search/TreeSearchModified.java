@@ -11,11 +11,12 @@ import java.util.Queue;
 
 public class TreeSearchModified < A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        Queue<Node<A>> queue = new ArrayDeque<>();
+        ArrayDeque<Node<A>> queue = new ArrayDeque<>();
         queue.add(problem.getInitialState());
         while (true){
             if (queue.isEmpty())return null;
-            Node<A> node = queue.poll();
+            Node<A> node = queue.getFirst();
+            queue.removeFirst();
             if (problem.goalTest(node)){
                 Node<A> node1 = node;
                 double min = node.cost;
@@ -34,8 +35,11 @@ public class TreeSearchModified < A extends Action,T extends Problem<A>> {
                 }
                 arrayList.addAll(temp);
                 return arrayList;
-            } ArrayList<? extends Node<A>> c = problem.successorFunction(node);
-            queue.addAll(c);
+            }
+            ArrayList<? extends Node<A>> c = problem.successorFunction(node);
+            for (Node<A> aNode : c) {
+                queue.addLast(aNode);
+            }
         }
     }
 }

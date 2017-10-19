@@ -26,6 +26,15 @@ public class TreeSearchIDSModified< A extends Action,T extends Problem<A>> {
             Node<A> node = queue.pop();
             set.add(node);
             if (problem.goalTest(node)){
+                Node<A> node1 = node;
+                double min = node.cost;
+                for (Node<A> aNode : queue) {
+                    if (problem.goalTest(aNode) && aNode.cost < min) {
+                        min = aNode.cost;
+                        node1 = aNode;
+                    }
+                }
+                node = node1;
                 ArrayList<Node<A>> arrayList = new ArrayList<>();
                 ArrayDeque<Node<A>> temp = new ArrayDeque<>();
                 while (node!=null){

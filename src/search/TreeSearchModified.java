@@ -14,7 +14,7 @@ public class TreeSearchModified < A extends Action,T extends Problem<A>> {
         ArrayDeque<Node<A>> queue = new ArrayDeque<>();
         queue.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return null;
+            if (queue.isEmpty())return new ArrayList<>();
             Node<A> node = queue.getFirst();
             queue.removeFirst();
             if (problem.goalTest(node)){

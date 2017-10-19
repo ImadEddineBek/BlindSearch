@@ -19,6 +19,7 @@ public class BlackProblem extends Problem<Action> {
         ArrayList<BlackNode> blackNodes = new ArrayList<>();
         blackNodes.addAll((Collection<? extends BlackNode>) successorFunction1(currentNode));
         blackNodes.addAll((Collection<? extends BlackNode>) successorFunction2(currentNode));
+        blackNodes.stream().allMatch(s->s.cost>2);
         return blackNodes;
     }
 

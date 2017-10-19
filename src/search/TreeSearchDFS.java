@@ -12,7 +12,7 @@ public class TreeSearchDFS< A extends Action,T extends Problem<A>> {
         Set<Node<A>> set = new HashSet<>();
         queue.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return null;
+            if (queue.isEmpty())return new ArrayList<>();
             Node<A> node = queue.pop();
             set.add(node);
             if (problem.goalTest(node)){

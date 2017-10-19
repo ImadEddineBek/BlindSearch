@@ -14,7 +14,7 @@ public class TreeSearch < A extends Action,T extends Problem<A>> {
         LinkedList<Node<A>> queue = new LinkedList<>();
         queue.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return null;
+            if (queue.isEmpty())return new ArrayList<>();
             Node<A> node = queue.pop();
             if (problem.goalTest(node)){
                 ArrayList<Node<A>> arrayList = new ArrayList<>();

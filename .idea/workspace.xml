@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d52a49-6de4-44f9-ac59-684b9d3d01fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/QueensNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/QueensProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/QueensState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EightQueens/type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchDFSModified.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchDLSModified.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchIDSModified.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/TreeSearchUCSModified.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlackNight/BlackProblem.java" afterPath="$PROJECT_DIR$/src/BlackNight/BlackProblem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearch.java" afterPath="$PROJECT_DIR$/src/search/TreeSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDFS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,21 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueensState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EightQueens/QueensState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EightQueens/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,21 +66,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueensProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EightQueens/QueensProblem.java">
+      <file leaf-file-name="TreeSearchDFSModified.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDFSModified.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="92" lean-forward="false" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+            <state relative-caret-position="374">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSearchDLSModified.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLSModified.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSearchIDSModified.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchIDSModified.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSearchUCSModified.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchUCSModified.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,32 +119,9 @@
       <file leaf-file-name="TreeSearchModified.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/TreeSearchModified.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="357">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="28" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeSearchUCS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchUCS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueensNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EightQueens/QueensNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -171,10 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Farmer/FarmersProblem.java" />
-        <option value="$PROJECT_DIR$/src/Insects/InsectsProblem.java" />
-        <option value="$PROJECT_DIR$/src/Missianaries/Main.java" />
-        <option value="$PROJECT_DIR$/src/Missianaries/Objects.java" />
         <option value="$PROJECT_DIR$/src/Missianaries/Action.java" />
         <option value="$PROJECT_DIR$/src/Insects/Action.java" />
         <option value="/a.dummy" />
@@ -222,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/EightQueens/Main.java" />
         <option value="$PROJECT_DIR$/src/EightQueens/QueensProblem.java" />
         <option value="$PROJECT_DIR$/src/BlackNight/BlackProblem.java" />
+        <option value="$PROJECT_DIR$/src/search/TreeSearchIDSModified.java" />
+        <option value="$PROJECT_DIR$/src/search/TreeSearchUCSModified.java" />
+        <option value="$PROJECT_DIR$/src/search/TreeSearchDFSModified.java" />
+        <option value="$PROJECT_DIR$/src/search/TreeSearchDLSModified.java" />
       </list>
     </option>
   </component>
@@ -268,18 +254,6 @@
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BlackNight" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EightQueens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -503,7 +477,7 @@
       <workItem from="1508351058807" duration="6933000" />
       <workItem from="1508398007116" duration="487000" />
       <workItem from="1508404534382" duration="29000" />
-      <workItem from="1508434554089" duration="218000" />
+      <workItem from="1508434554089" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="First Implementation with Bidon">
       <created>1508089975581</created>
@@ -624,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508352546174</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adding the eight queens problem and solving it">
+      <created>1508434814426</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508434814426</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52052000" />
+    <option name="totallyTimeSpent" value="54198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -643,7 +624,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49275362" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -742,7 +723,8 @@
     <MESSAGE value="using the UCS that gives the best answer" />
     <MESSAGE value="using the IDS that gives the best answer" />
     <MESSAGE value="Implementing IDS in all the problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing IDS in all the problems" />
+    <MESSAGE value="Adding the eight queens problem and solving it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the eight queens problem and solving it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,34 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Bidon/type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Insects/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Missionaries/MissionaryState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1033,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchModified.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/TreeSearchUCS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1119,8 +1065,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchIDSModified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchUCSModified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchModified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDFSModified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLSModified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -11,11 +11,11 @@ import java.util.Queue;
 
 public class TreeSearch < A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        LinkedList<Node<A>> queue = new LinkedList<>();
-        queue.add(problem.getInitialState());
+        LinkedList<Node<A>> fringe = new LinkedList<>();
+        fringe.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return new ArrayList<>();
-            Node<A> node = queue.pop();
+            if (fringe.isEmpty())return new ArrayList<>();
+            Node<A> node = fringe.pop();
             if (problem.goalTest(node)){
                 ArrayList<Node<A>> arrayList = new ArrayList<>();
                 ArrayDeque<Node<A>> temp = new ArrayDeque<>();
@@ -27,7 +27,7 @@ public class TreeSearch < A extends Action,T extends Problem<A>> {
                 return arrayList;
             }else {
                 ArrayList<? extends Node<A>> c = problem.successorFunction(node);
-                queue.addAll(c);
+                fringe.addAll(c);
             }
         }
     }

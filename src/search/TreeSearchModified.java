@@ -6,21 +6,19 @@ import GeneralProblem.Problem;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Queue;
 
 public class TreeSearchModified < A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        ArrayDeque<Node<A>> queue = new ArrayDeque<>();
-        queue.add(problem.getInitialState());
+        ArrayDeque<Node<A>> fringe = new ArrayDeque<>();
+        fringe.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return new ArrayList<>();
-            Node<A> node = queue.getFirst();
-            queue.removeFirst();
+            if (fringe.isEmpty())return new ArrayList<>();
+            Node<A> node = fringe.getFirst();
+            fringe.removeFirst();
             if (problem.goalTest(node)){
                 Node<A> node1 = node;
                 double min = node.cost;
-                for (Node<A> aNode : queue) {
+                for (Node<A> aNode : fringe) {
                     if (problem.goalTest(aNode) && aNode.cost < min) {
                         min = aNode.cost;
                         node1 = aNode;
@@ -38,7 +36,7 @@ public class TreeSearchModified < A extends Action,T extends Problem<A>> {
             }
             ArrayList<? extends Node<A>> c = problem.successorFunction(node);
             for (Node<A> aNode : c) {
-                queue.addLast(aNode);
+                fringe.addLast(aNode);
             }
         }
     }

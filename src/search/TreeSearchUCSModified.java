@@ -8,17 +8,17 @@ import java.util.*;
 
 public class TreeSearchUCSModified< A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        PriorityQueue<Node<A>> queue = new PriorityQueue<>();
-        queue.add(problem.getInitialState());
+        PriorityQueue<Node<A>> fringe = new PriorityQueue<>();
+        fringe.add(problem.getInitialState());
         Set<Node<A>> set = new HashSet<>();
         while (true){
-            if (queue.isEmpty())return new ArrayList<>();
-            Node<A> node = queue.poll();
+            if (fringe.isEmpty())return new ArrayList<>();
+            Node<A> node = fringe.poll();
             set.add(node);
             if (problem.goalTest(node)){
                 Node<A> node1 = node;
                 double min = node.cost;
-                for (Node<A> aNode : queue) {
+                for (Node<A> aNode : fringe) {
                     if (problem.goalTest(aNode) && aNode.cost < min) {
                         min = aNode.cost;
                         node1 = aNode;
@@ -37,7 +37,7 @@ public class TreeSearchUCSModified< A extends Action,T extends Problem<A>> {
             ArrayList<? extends Node<A>> c = problem.successorFunction(node);
             for (Node<A> aNode : c) {
                 if (set.add(aNode))
-                    queue.add(aNode);
+                    fringe.add(aNode);
             }
         }
     }

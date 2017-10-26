@@ -8,17 +8,17 @@ import java.util.*;
 
 public class TreeSearchDFSModified< A extends Action,T extends Problem<A>> {
     public ArrayList<Node<A>> solve(T problem){
-        Stack<Node<A>> queue = new Stack<>();
+        Stack<Node<A>> fringe = new Stack<>();
         Set<Node<A>> set = new HashSet<>();
-        queue.add(problem.getInitialState());
+        fringe.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return new ArrayList<>();
-            Node<A> node = queue.pop();
+            if (fringe.isEmpty())return new ArrayList<>();
+            Node<A> node = fringe.pop();
             set.add(node);
             if (problem.goalTest(node)){
                 Node<A> node1 = node;
                 double min = node.cost;
-                for (Node<A> aNode : queue) {
+                for (Node<A> aNode : fringe) {
                     if (problem.goalTest(aNode) && aNode.cost < min) {
                         min = aNode.cost;
                         node1 = aNode;
@@ -37,7 +37,7 @@ public class TreeSearchDFSModified< A extends Action,T extends Problem<A>> {
                 ArrayList<? extends Node<A>> c = problem.successorFunction(node);
                 for (Node<A> aNode : c) {
                     if (set.add(aNode))
-                        queue.add(aNode);
+                        fringe.add(aNode);
                 }
 
             }

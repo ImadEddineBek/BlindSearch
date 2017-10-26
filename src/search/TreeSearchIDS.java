@@ -18,12 +18,12 @@ public class TreeSearchIDS< A extends Action,T extends Problem<A>> {
     }
 
     public ArrayList<Node<A>> dls(T problem , int depth){
-        Stack<Node<A>> queue = new Stack<>();
+        Stack<Node<A>> fringe = new Stack<>();
         Set<Node<A>> set = new HashSet<>();
-        queue.add(problem.getInitialState());
+        fringe.add(problem.getInitialState());
         while (true){
-            if (queue.isEmpty())return new ArrayList<>();
-            Node<A> node = queue.pop();
+            if (fringe.isEmpty())return new ArrayList<>();
+            Node<A> node = fringe.pop();
             set.add(node);
             if (problem.goalTest(node)){
                 ArrayList<Node<A>> arrayList = new ArrayList<>();
@@ -38,7 +38,7 @@ public class TreeSearchIDS< A extends Action,T extends Problem<A>> {
                 ArrayList<? extends Node<A>> c = problem.successorFunction(node);
                 for (Node<A> aNode : c) {
                     if (set.add(aNode)&&aNode.depth<=depth)
-                        queue.add(aNode);
+                        fringe.add(aNode);
                 }
 
             }

@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d52a49-6de4-44f9-ac59-684b9d3d01fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDFS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDFSModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDFSModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDLS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDLS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchDLSModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchDLSModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchIDS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchIDS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchIDSModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchIDSModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchUCS.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchUCS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/TreeSearchUCSModified.java" afterPath="$PROJECT_DIR$/src/search/TreeSearchUCSModified.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,26 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreeSearchDFS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeSearchDFSModified.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDFSModified.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TreeSearchDLS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/TreeSearchDLS.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,9 +93,21 @@
       <file leaf-file-name="TreeSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <folding>
+                <element signature="e#1251#1252#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Missianaries/Action.java" />
         <option value="$PROJECT_DIR$/src/Insects/Action.java" />
         <option value="/a.dummy" />
         <option value="$PROJECT_DIR$/src/Missionaries/Objects.java" />
@@ -213,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/search/TreeSearchUCSModified.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearchModified.java" />
         <option value="$PROJECT_DIR$/src/search/TreeSearchUCS.java" />
+        <option value="$PROJECT_DIR$/src/search/GreedySearch.java" />
       </list>
     </option>
   </component>
@@ -259,6 +242,12 @@
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlindSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GeneralProblem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlindSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -472,7 +461,7 @@
       <workItem from="1508484766742" duration="3339000" />
       <workItem from="1508663266727" duration="392000" />
       <workItem from="1508767399133" duration="3468000" />
-      <workItem from="1509037011883" duration="296000" />
+      <workItem from="1509037011883" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="First Implementation with Bidon">
       <created>1508089975581</created>
@@ -621,15 +610,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508781429682</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Modifying the rest of the search algorithms">
+      <created>1509037316048</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509037316048</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62994000" />
+    <option name="totallyTimeSpent" value="63123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -643,7 +638,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24307036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24307036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -733,13 +728,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BlackNight/BlackNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BlackNight/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -930,14 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1020,8 +1000,8 @@
         <state relative-caret-position="378">
           <caret line="85" column="5" lean-forward="false" selection-start-line="67" selection-start-column="91" selection-end-line="85" selection-end-column="5" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
             <element signature="method#successorFunction1#0;class#InsectsProblem#0" expanded="false" />
             <element signature="method#successorFunction2#0;class#InsectsProblem#0" expanded="false" />
           </folding>
@@ -1112,8 +1092,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/TreeSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="486">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneralProblem/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="e#1251#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/GreedySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>

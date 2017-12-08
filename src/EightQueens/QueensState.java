@@ -3,7 +3,7 @@ package EightQueens;
 import GeneralProblem.State;
 
 public class QueensState extends State {
-    private final type[][] liste;
+    private final type[][]  liste;
 
     public QueensState(type[][] liste) {
         this.liste = liste;

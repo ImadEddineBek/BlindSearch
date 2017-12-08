@@ -9,9 +9,10 @@ import java.util.Collection;
 
 
 public class QueensProblem extends Problem<Action> {
-
-    QueensProblem(Node<Action> initialState) {
+        int n ;
+    QueensProblem(Node<Action> initialState,int n) {
         super(initialState);
+        this.n = n;
     }
 //
     @Override
@@ -55,7 +56,7 @@ public class QueensProblem extends Problem<Action> {
                 if (t.equals(type.occupied))nb++;
             }
         }
-        return nb>=8;
+        return nb>=n;
     }
 
 }
